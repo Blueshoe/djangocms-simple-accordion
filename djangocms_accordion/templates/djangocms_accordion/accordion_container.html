@@ -1,0 +1,16 @@
+{% load cms_tags sekizai_tags %}
+{% load static %}
+
+<div class="accordion-plugin {{ accordion.custom_classes }}" id="accordion-{{ accordion.pk }}">
+    {% for plugin in accordion.child_plugin_instances %}
+		{% with forloop as parentloop %}{% render_plugin plugin %}{% endwith %}
+    {% endfor %}
+</div>
+
+{% addtoblock "js" %}
+    <script type="text/javascript" src="{% static 'djangocms_accordion/js/accordion.js' %}"></script>
+{% endaddtoblock "js" %}
+
+{% addtoblock 'css' %}
+    <link rel="stylesheet" href="{% static 'djangocms_accordion/css/accordion.css' %}">
+{% endaddtoblock %}

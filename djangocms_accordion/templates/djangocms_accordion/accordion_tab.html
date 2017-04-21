@@ -1,0 +1,8 @@
+{% load cms_tags %}
+
+<div class="accordion">
+    <button class="accordion-title js-accordionButton"><i class="glyphicon pull-right accordion-toggleIcon"></i>{{ instance.title }}</button>
+    <div class="accordion-content js-accordionContent {{ accordion.custom_classes }}" id="#accordion-{{ accordion.pk }}-{{ parentloop.counter }}">
+        {% for plugin in instance.child_plugin_instances %}{% render_plugin plugin %}{% endfor %}
+    </div>
+</div>
