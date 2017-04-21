@@ -26,6 +26,11 @@ To get started using ``djangocms-simple-accordion``:
 - run ``migrate djangocms_accordion``.
 
 
+Dependencies
+=============
+- Currently this plugin depends on bootstrap and glyphicons.
+
+
 Customization
 =============
 You can just override some of the CSS rules. In order to find the correct one, nspect the generated HTML in the development tools in the browser of your choice.
