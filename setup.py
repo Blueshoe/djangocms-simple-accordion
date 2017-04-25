@@ -40,4 +40,6 @@ setup(
     classifiers=CLASSIFIERS,
     keywords=['django', 'Django CMS', 'accordion', 'tab', 'accordion-tab'],
     install_requires=REQUIREMENTS,
+    include_package_data=True,
+    zip_safe=False,
 )
