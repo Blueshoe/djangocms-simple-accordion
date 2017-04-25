@@ -81,3 +81,5 @@ However, here are some commonly used customization options to get you started:
       -o-transition: ease-in-out .2s;
       transition: ease-in-out .2s;
     }
+
+If you feel like you need to customize the plugin more than what is easily possible with CSS, go ahead and copy the directory *djangocms_accordion* into your django project.
