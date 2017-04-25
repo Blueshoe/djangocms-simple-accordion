@@ -4,6 +4,11 @@ django CMS Accordion
 
 A plugin for django CMS which provides you an easy way to add accordion tabs to your pages. It's minimalistic and can be easily customized via CSS.
 
+.. image:: https://cloud.githubusercontent.com/assets/3121306/25285817/d5607b10-26bb-11e7-9cd5-77914c52e885.png
+
+.. image:: https://cloud.githubusercontent.com/assets/3121306/25285816/d55b2f66-26bb-11e7-8ee4-aa68508a9dc7.png
+
+
 Installation
 ============
 
@@ -76,3 +81,5 @@ However, here are some commonly used customization options to get you started:
       -o-transition: ease-in-out .2s;
       transition: ease-in-out .2s;
     }
+
+If you feel like you need to customize the plugin more than what is easily possible with CSS, go ahead and copy the directory *djangocms_accordion* into your django project.
