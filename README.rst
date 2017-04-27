@@ -6,6 +6,7 @@ A plugin for django CMS which provides you an easy way to add accordion tabs to 
 
 .. image:: https://travis-ci.org/Blueshoe/djangocms-simple-accordion.svg?branch=master
     :target: https://travis-ci.org/Blueshoe/djangocms-simple-accordion
+    :alt: Code analysis status
 
 .. image:: https://cloud.githubusercontent.com/assets/3121306/25285817/d5607b10-26bb-11e7-9cd5-77914c52e885.png
 
