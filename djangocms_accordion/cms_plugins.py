@@ -36,5 +36,6 @@ class AccordionTabPlugin(CMSPluginBase):
         })
         return context
 
+
 plugin_pool.register_plugin(AccordionContainerPlugin)
 plugin_pool.register_plugin(AccordionTabPlugin)
