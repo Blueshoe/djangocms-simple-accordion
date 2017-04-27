@@ -1,0 +1,10 @@
+language: python
+sudo: false
+
+cache: pip
+
+install:
+  pip install flake8
+
+script:
+  flake8 .
