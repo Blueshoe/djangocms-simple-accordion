@@ -1,6 +1,7 @@
 @accordion-background-color: #f8f8f8;
 @accordion-background-color-hover: darken(#f8f8f8, 3%);
 @accordion-horizontal-padding: 25px;
+@accordion-horizontal-padding-mobile: 20px;
 @accordion-margin: 10px;
 
 .u-accordion-transition {
@@ -48,4 +49,11 @@
 }
 .accordion-title.active .accordion-toggleIcon:after {
   content: '\e114';
+}
+
+@media (max-width: 767px) {
+    .accordion-title, .accordion-content {
+        padding-left: @accordion-horizontal-padding-mobile;
+        padding-right: @accordion-horizontal-padding-mobile;
+    }
 }
