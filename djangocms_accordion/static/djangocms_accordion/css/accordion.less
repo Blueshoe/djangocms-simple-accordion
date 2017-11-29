@@ -1,6 +1,7 @@
 @accordion-background-color: #f8f8f8;
 @accordion-background-color-hover: darken(#f8f8f8, 3%);
 @accordion-horizontal-padding: 25px;
+@accordion-margin: 10px;
 
 .u-accordion-transition {
   -webkit-transition: ease-in-out .2s;
@@ -11,7 +12,7 @@
 }
 .accordion {
   background-color: @accordion-background-color;
-  margin-bottom: 10px;
+  margin-bottom: @accordion-margin;
   .u-accordion-transition;
 }
 .accordion-title {
