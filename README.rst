@@ -42,7 +42,7 @@ Dependencies
 
 Customization
 =============
-You can just override some of the CSS rules. In order to find the correct one, nspect the generated HTML in the development tools in the browser of your choice.
+You can just override some of the CSS rules. In order to find the correct one, inspect the generated HTML in the development tools in the browser of your choice.
 
 However, here are some commonly used customization options to get you started:
 
