@@ -25,7 +25,7 @@ class Migration(migrations.Migration):
             name='AccordionTab',
             fields=[
                 ('cmsplugin_ptr', models.OneToOneField(parent_link=True, related_name='content_plugins_accordiontab', auto_created=True, primary_key=True, serialize=False, to='cms.CMSPlugin')),
-                ('title', models.CharField(default=b'', max_length=200, verbose_name='title')),
+                ('title', models.CharField(default='', max_length=200, verbose_name='title')),
             ],
             options={
                 'abstract': False,
